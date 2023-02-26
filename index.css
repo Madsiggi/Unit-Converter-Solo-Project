@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  min-width: 550px;
+  font-family: "Inter", sans-serif;
+  background-color: #f4f4f4;
+}
+
+#input-section {
+  width: 550px;
+  height: 285px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6943ff;
+  color: #ffffff;
+}
+
+#title-el {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 30px auto;
+}
+
+#input-el {
+  height: 85px;
+  width: 120px;
+  background-color: #6943ff;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  font-size: 58px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#btn-el {
+  height: 45px;
+  width: 120px;
+  color: #3d3d3d;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  border: none;
+  box-shadow: 0 0 2px black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#btn-el:hover {
+  background-color: #3d3d3d;
+  color: #ffffff;
+}
+
+.conversion-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 110px;
+  margin: 25px auto;
+  background-color: #ffffff;
+}
+
+.conversion-title {
+  color: #5a537b;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px auto 0;
+}
+
+.conversion-text {
+  color: #353535;
+  font-size: 14px;
+  font-weight: 400;
+}
